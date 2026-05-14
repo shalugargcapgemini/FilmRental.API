@@ -42,5 +42,19 @@ namespace FilmRental.API.Controllers
             var result = _mapper.Map<IEnumerable<StaffReadDto>>(staffs);
             return Ok(result);
         }
+        
+        [HttpDelete("delete/{id}")]
+        public async Task<IActionResult> DeleteStaff(int id)
+        {
+            var staff = await _context.Staffs.FindAsync(id);
+
+            if (staff == null)
+                return NotFound($"Staff with Id = {id} not found");
+
+            _context.Staffs.Remove(staff);
+            await _context.SaveChangesAsync();
+
+            return Ok("Record Deleted Successfully");
+        }
     }
 }

@@ -131,6 +131,7 @@ C:\FilmRentalStore\FilmRental.API\obj\Debug\net8.0\FilmRental.API.AssemblyInfo.c
 C:\FilmRentalStore\FilmRental.API\obj\Debug\net8.0\FilmRental.API.csproj.CoreCompileInputs.cache
 C:\FilmRentalStore\FilmRental.API\obj\Debug\net8.0\FilmRental.API.MvcApplicationPartsAssemblyInfo.cs
 C:\FilmRentalStore\FilmRental.API\obj\Debug\net8.0\FilmRental.API.MvcApplicationPartsAssemblyInfo.cache
+C:\FilmRentalStore\FilmRental.API\obj\Debug\net8.0\FilmRental.API.sourcelink.json
 C:\FilmRentalStore\FilmRental.API\obj\Debug\net8.0\rjimswa.dswa.cache.json
 C:\FilmRentalStore\FilmRental.API\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 C:\FilmRentalStore\FilmRental.API\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
